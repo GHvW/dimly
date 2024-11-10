@@ -30,3 +30,7 @@ Cargo.lock
 .idea
 .ionide
 .metals
+
+
+# wasm out
+/out

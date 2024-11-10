@@ -1,3 +1,6 @@
+use wasm_bindgen::prelude::*;
+
+#[wasm_bindgen]
 #[derive(Clone, Debug, PartialEq)]
 pub struct Vec2 {
     x: f32,
@@ -14,6 +17,7 @@ pub const UP: Vec2 = Vec2 { x: 0.0, y: 1.0 };
 
 pub const DOWN: Vec2 = Vec2 { x: 0.0, y: -1.0 };
 
+#[wasm_bindgen]
 impl Vec2 {
     pub fn new(x: f32, y: f32) -> Self {
         Vec2 { x, y }
