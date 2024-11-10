@@ -3,8 +3,8 @@ use wasm_bindgen::prelude::*;
 #[wasm_bindgen]
 #[derive(Clone, Debug, PartialEq)]
 pub struct Vec2 {
-    x: f32,
-    y: f32
+    pub x: f32,
+    pub y: f32
 }
 
 pub const ORIGIN: Vec2 = Vec2 { x: 0.0, y: 0.0 };
